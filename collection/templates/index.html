@@ -1,0 +1,9 @@
+{% extends 'layouts/base.html' %}
+{% load humanize %}
+{% block title %}Homepage - {{ block.super }}{% endblock %}
+{% block content %}
+	<h1>Hello World</h1>
+	<p>There are {{ number|apnumber }} dogs!</p>
+	<p>This is my name: {{ thing|title }}</p>
+	<p>I am a basic website</p>
+{% endblock %}
