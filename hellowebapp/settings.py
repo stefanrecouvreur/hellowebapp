@@ -39,6 +39,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.humanize',
+    'registration',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -102,3 +103,14 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# Email settings for registration
+ACCOUNT_ACTIVATION_DAYS = 7
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+DEFAULT_FORM_EMAIL = 'stefan.recouvreur@gmail.com'
+EMAIL_HOST = 'mail.gmail.com'
+EMAIL_HOST_USER = 'stefan.recouvreur@gmail.com'
+EMAIL_HOST_PASSWORD = 'russie69'
+EMAIL_USE_TLS = False
+EMAIL_PORT = 1025
+LOGIN_REDIRECT_URL = "home"
