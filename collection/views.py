@@ -52,6 +52,7 @@ def edit_profile(request, slug):
         'form': form,
     })
 
+
 def create_profile(request):
     form_class(ProfileForm)
     # if we're coming from a submitted form, do this
@@ -74,4 +75,15 @@ def create_profile(request):
 
     return render(request, 'profile/create_profile.html', {
         'form': form,
+    })
+
+
+def browse_by_name(request, initial=None):
+    if initial:
+        profiles = Profile.objects.filter(name__istartswith=initial).order_by('name')
+    else:
+        profiles = Profile.objects.all().order_by('name')
+    return render(request, 'search/search.html', {
+        'profiles': profiles,
+        'initial': initial,
     })
