@@ -13,4 +13,4 @@ import os
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "hellowebapp.settings_production")
 
 application = get_wsgi_application()
-application = DjangoWhiteNoise(application) 
+application = DjangoWhiteNoise(application)
