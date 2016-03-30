@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9408f318-1b89-4aa4-9383-41c0f1781a22" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hellowebapp/settings.py" afterPath="$PROJECT_DIR$/hellowebapp/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hellowebapp/settings_production.py" afterPath="$PROJECT_DIR$/hellowebapp/settings_production.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="myhellowebapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,17 +57,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hellowebapp/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="109" column="72" selection-start-line="109" selection-start-column="72" selection-end-line="109" selection-end-column="72" />
+            <state relative-caret-position="288">
+              <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings_production.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings_production.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hellowebapp/settings_production.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
@@ -96,7 +95,7 @@
         <entry file="file://$PROJECT_DIR$/hellowebapp/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
               <folding>
                 <element signature="e#226#275#0" expanded="true" />
               </folding>
@@ -119,9 +118,9 @@
         <option value="$PROJECT_DIR$/collection/views.py" />
         <option value="$PROJECT_DIR$/hellowebapp/urls.py" />
         <option value="$PROJECT_DIR$/collection/tests.py" />
-        <option value="$PROJECT_DIR$/hellowebapp/wsgi.py" />
         <option value="$PROJECT_DIR$/hellowebapp/settings_production.py" />
         <option value="$PROJECT_DIR$/hellowebapp/settings.py" />
+        <option value="$PROJECT_DIR$/hellowebapp/wsgi.py" />
       </list>
     </option>
   </component>
@@ -481,16 +480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hellowebapp/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding>
-            <element signature="e#226#275#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -509,6 +498,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hellowebapp/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding>
+            <element signature="e#226#275#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hellowebapp/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hellowebapp/settings_production.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -516,14 +523,6 @@
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hellowebapp/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="109" column="72" selection-start-line="109" selection-start-column="72" selection-end-line="109" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
